@@ -1,0 +1,137 @@
+.image {
+	position: absolute;
+	top:4px;
+	left: 525px;
+}
+
+.text {
+	font-size: 20px;
+	font-family: Bembo std;
+	line-height: 20px;
+}
+
+.text1 {
+	top: 15px;
+	left: 0px;
+	position: absolute;
+}
+.text2{
+	top: 213px;
+	left: 254px;
+	position: absolute;
+}
+.text3{
+	top: 213px;
+	left: 512px;
+	position: absolute;
+}
+.text4{
+	top: 407px;
+	left: 512px;
+	position: absolute;
+}
+.text5{
+	top: 407px;
+	left: 767px;
+	position: absolute;
+	
+}
+.text6{
+	top: 612px;
+	left: 767px;
+	position: absolute;
+	color: #467411;
+}
+.text7{
+	top: 603px;
+	left: 1019px;
+	position: absolute;
+	color: #467411;
+}
+.text8{
+	top: 122px;
+	left: 512px;
+	position: absolute;
+	color:#88A6C9;
+}
+.text9{
+	top: 330px;
+	left: 1021px;
+	position: absolute;
+	color:#5779A0;
+}
+.text10{
+	top: 527px; 
+	left: 0px;
+	position: absolute;
+	color:#375614;
+}
+.text11{
+	top: 520px;
+	left: 254px;
+	position: absolute;
+	color:#4A731B;
+}
+.text12{
+	top: 520px;
+	left:512px;
+	position: absolute;
+	color: #73B329;
+}
+.text13{
+	top: 527px;
+	left: 767px;
+	position: absolute;
+	color: #91E233;
+}
+.text14{
+	top: 714px;
+	left: 400px;
+	position: absolute;
+	color: #C36570;
+}
+.text15{
+	top: 920px;
+	left: 700px;
+	position: absolute;
+	color: #9D1223;
+}
+
+
+.bars {
+	width: 1280px;
+	height: 100px;
+}
+.bars1{
+	width:1280px;
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	top: 100px;
+	left: 0px;
+}
+.bars2{
+	width:1280px;
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	top: 300px;
+	left: 0px;
+}
+.bars3{
+	width:1280px;
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	top: 500px;
+	left: 0px;
+}
+.bars4{
+	width:1280px;
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	top: 700px;
+	left: 0px;
+}
+
