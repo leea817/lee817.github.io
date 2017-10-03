@@ -1,8 +1,43 @@
-.image {
+
+body {
+	background-color: #FFDCE0;
+}
+.image1 {
 	position: absolute;
 	top:4px;
-	left: 525px;
+	left: 615px;
 }
+.image2 {
+	top: 607px;
+	left: 147px;
+	position: absolute;
+}
+.image3{
+	top: 807px;
+	left: 384px;
+	position: absolute;
+}
+.image4{
+	top:4px;
+	left: 1075px;
+	position: absolute;
+}
+.image5{
+	top: 100px;
+	left: 60px;
+	position: absolute;
+}
+.image6{
+	top: 330px;
+	left: 921px;
+	position: absolute;
+}
+.image7{
+	top: 330px;
+	left: 1121px;
+	position: absolute;
+}
+
 
 .text {
 	font-size: 20px;
@@ -12,17 +47,17 @@
 
 .text1 {
 	top: 15px;
-	left: 0px;
+	left: 60px;
 	position: absolute;
 }
 .text2{
 	top: 213px;
-	left: 254px;
+	left: 284px;
 	position: absolute;
 }
 .text3{
 	top: 213px;
-	left: 512px;
+	left: 542px;
 	position: absolute;
 }
 .text4{
@@ -40,13 +75,11 @@
 	top: 612px;
 	left: 767px;
 	position: absolute;
-	color: #467411;
 }
 .text7{
 	top: 603px;
 	left: 1019px;
 	position: absolute;
-	color: #467411;
 }
 .text8{
 	top: 122px;
@@ -62,36 +95,36 @@
 }
 .text10{
 	top: 527px; 
-	left: 0px;
+	left: 40px;
 	position: absolute;
 	color:#375614;
 }
 .text11{
 	top: 520px;
-	left: 254px;
+	left: 294px;
 	position: absolute;
 	color:#4A731B;
 }
 .text12{
-	top: 520px;
-	left:512px;
+	top: 527px;
+	left:552px;
 	position: absolute;
 	color: #73B329;
 }
 .text13{
 	top: 527px;
-	left: 767px;
+	left: 807px;
 	position: absolute;
 	color: #91E233;
 }
 .text14{
-	top: 714px;
+	top: 816px;
 	left: 400px;
 	position: absolute;
 	color: #C36570;
 }
 .text15{
-	top: 920px;
+	top: 1020px;
 	left: 700px;
 	position: absolute;
 	color: #9D1223;
@@ -105,7 +138,7 @@
 .bars1{
 	width:1280px;
 	height: 100px;
-	background-color: white;
+	background-color: #FFDCE0;
 	position: fixed;
 	top: 100px;
 	left: 0px;
@@ -113,7 +146,7 @@
 .bars2{
 	width:1280px;
 	height: 100px;
-	background-color: white;
+	background-color: #FFDCE0;
 	position: fixed;
 	top: 300px;
 	left: 0px;
@@ -121,7 +154,7 @@
 .bars3{
 	width:1280px;
 	height: 100px;
-	background-color: white;
+	background-color: #FFDCE0;
 	position: fixed;
 	top: 500px;
 	left: 0px;
@@ -129,7 +162,7 @@
 .bars4{
 	width:1280px;
 	height: 100px;
-	background-color: white;
+	background-color: #FFDCE0;
 	position: fixed;
 	top: 700px;
 	left: 0px;
