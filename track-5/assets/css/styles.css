@@ -14,7 +14,7 @@
 
 .clipart2{
 	top: 300px;
-	left: 902px;
+	left: 930px;
 	position: absolute;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .text2 { 
-	font: bold 200% Consolas, Monaco, monospace;
+	font: bold 190% Consolas, Monaco, monospace;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	border-right: .1em solid black;
 	width: 16.5em; 
@@ -49,11 +49,11 @@
 	position: absolute;
 	top: 446px;
 	left: 822px;
-	color: #5991D3;
+	color: #96BAE3;
 }
 
 .text3 { 
-	font: bold 200% Consolas, Monaco, monospace;
+	font: bold 120% Consolas, Monaco, monospace;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	border-right: .1em solid black;
 	width: 16.5em; 
@@ -64,13 +64,13 @@
 	-webkit-animation: typing 2s steps(21, end),
 	           blink-caret .5s step-end infinite alternate;
 	position: absolute;
-	top: 1630px;
+	top: 1500px;
 	left: 88px;
 	color: #96BAE3;
 
 }
 .text4 { 
-	font: bold 200% Consolas, Monaco, monospace;
+	font: bold 140% Consolas, Monaco, monospace;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	border-right: .1em solid black;
 	width: 16.5em; 
@@ -82,12 +82,12 @@
 	           blink-caret .5s step-end infinite alternate;
 	position: absolute;
 	top: 1686px;
-	left: 767px;
+	left: 780px;
 	color: #96BAE3;
 }
 
 .text5 { 
-	font: bold 200% Consolas, Monaco, monospace;
+	font: bold 140% Consolas, Monaco, monospace;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	border-right: .1em solid black;
 	width: 16.5em; 
@@ -98,7 +98,7 @@
 	-webkit-animation: typing 2s steps(21, end),
 	           blink-caret .5s step-end infinite alternate;
 	position: absolute;
-	top: 2100px;
+	top: 2150px;
 	left: 600px;
 	color: #96BAE3;
 }
