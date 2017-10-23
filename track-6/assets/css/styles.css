@@ -1,0 +1,212 @@
+* { vertical-align: top; }
+
+body {
+	font-size: 15px;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+/*
+.clock {
+	position: fixed;
+	top: 169px;
+	left:43px;
+}
+
+.diary {
+	position: fixed;
+	top: 341px;
+	left: 17px;
+}
+
+.alonewallet {
+	position: fixed;
+	top:600px;
+	font-size: 10px;
+}
+.closet-items {
+	position: fixed;
+	top: 493px;
+	left: 19px;
+}
+
+.sidebar {
+	position: fixed;
+	top: 493px;
+	left: 19px;
+
+}
+*/
+
+.text1 {
+  text-align: center;
+  margin: 60px auto;
+
+}
+.text2 {
+  text-align: center;
+  margin: 628px auto;
+}
+.text3 {
+  text-align: center;
+  margin: 950px auto;
+}
+
+#mainsidebar {
+  width: 100%;
+  position: fixed;
+}
+
+
+#what {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+#what > #whatmore {
+  position: fixed;
+  top: 0px;
+}
+#clock{
+    top: 25px;
+    position: absolute;
+  }
+
+#diary{
+    width:119px;
+    position:absolute;
+  	top:256px;
+    }
+
+.wallet {
+	width:61px;
+    position:absolute;
+  	top:96px;
+  	text-align: middle;
+}
+.closet {
+	width:61px;
+    position:absolute;
+  	top:363px;
+  	text-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+#main1 {
+  width: 100%;
+}
+
+#photo1 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+#photo1 > #photo-center1 {
+  position:absolute;
+  top: 96px;
+}
+#large1{
+    width:683px;
+  }
+
+#small1{
+    width:61px;
+    position:absolute;
+    left:291px;
+  	top:336px;
+  	z-index:1;
+    }
+
+#we1 {
+	width:61px;
+    position:absolute;
+    left:191px;
+  	top:200px;
+  	z-index:2;
+}
+
+
+#main2 {
+  width: 100%;
+}
+
+#photo2 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+#photo2 > #photo-center2 {
+  position:absolute;
+  top: 745px;
+}
+#large2{
+    width:683px;
+  }
+
+#small2{
+    width:61px;
+    position:absolute;
+    left:39px;
+  	top:537px;
+  	z-index:1;
+    }
+
+#we2 {
+	width:61px;
+    position:absolute;
+    left:0px;
+  	top:392px;
+  	z-index:2;
+}
+
+
+
+#main3 {
+  width: 100%;
+}
+
+#photo3 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+#photo3 > #photo-center3 {
+  position:absolute;
+  top: 1735px;
+}
+#large3{
+    width:683px;
+  }
+
+#small3{
+    width:61px;
+    position:absolute;
+    left:249px;
+    top:413px;
+    z-index:1;
+    }
+
+#we3 {
+  width:61px;
+    position:absolute;
+    left:49px;
+    top:141px;
+    z-index:2;
+}
+
