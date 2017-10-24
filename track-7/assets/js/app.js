@@ -56,10 +56,3 @@ $('.nav-item').click(function() {
 
 
 
-$('.close-button').click(function() {
-	$('.lightbox').addClass('hide');
-	// before we got into beyonece by lightbox and removing hide, so to get out we need to do the opposite aka add hide
-	$('audio')[0].pause(); 
-	$('.nav-item.beyonce').removeClass('active');
-})
-	
