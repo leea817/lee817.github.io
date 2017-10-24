@@ -15,67 +15,53 @@ html, body { height: 100%; }
 .wrapper {
 	width: 100%;
 	height: 100%;
+	background: #9ABACB;
 }
 
 .column {
 	width: 50%;
 	display: inline-block;
 	height: 100%;
+	text-align: center;
+}
+
+.gif {
+	display: block;
+	text-align: center;
+	margin: 150px auto;
 }
 
 .content {
 	background: #f1f1f1;
 	font-size: 20px;
+	text-align: center;
 }
 
-ul, li {
-	list-style: none;
-	margin: 0;
-	padding: 0
-	;
-}
+
 
 .nav-item {
-	border: 1px solid #000;
-	padding: 10px 20px;
+	border: 0px solid #000;
+	padding: 1px 20px;
 	display:inline-block;
 	font-size: 20px;
-	margin: 0 15px 15px 0;
+	margin: 270px 15px 15px 0;
 	cursor: pointer;
 }
 
 /*to put these together means the one you're hovered over connect with active after functiopn*/
 .nav-item:hover, .nav-item.active {
-	background: #000;
+	background: #B5CFDD;
 	color: #fff;
 }
 
-.content.green { background: #B8E986; }
-.content.blue { background: #4A90E2; }
-.content.red { background: #D0021B; }
-.content.sol-lewitt { background:url('../img/sol-lewitt.gif'); }
-.content.about { background: # }
+.content.green { background: #FFCE06; }
+.content.blue { background: #FFD8D8; }
+.content.red { background: #931111; }
+.content.sol-lewitt { background: #BFCDB7; }
+.content.about { background: #0A0202; }
 
 
 
-.lightbox.beyonce {
-	width: 100%;
-	height: 100%;
-	background: #000;
-	color: #fff;
-	position: fixed;
-	top: 0;
-	left: 0;
-}
-
-
-.slay {
-	font-size: 200px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%)
-}
 
 .close-button {
 	position: absolute;
@@ -89,3 +75,10 @@ ul, li {
 .audio { opacity: 0; }
 
 .hide { display: none; }
+
+.face { margin-top: 60px }
+
+
+#navtears2 {
+	margin-top: 320px;
+}

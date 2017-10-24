@@ -8,6 +8,42 @@ $('.nav-item').click(function() {
 	$('.about-text').addClass('hide');
 	$(this).addClass('active');
 
+	if (button_name== 'green') {
+		$('.1').removeClass('hide');
+		$('.2').addClass('hide');
+		$('.3').addClass('hide');
+		$('.4').addClass('hide');
+		$('.5').addClass('hide');
+	}
+	if (button_name== 'blue') {
+		$('.2').removeClass('hide');
+		$('.1').addClass('hide');
+		$('.3').addClass('hide');
+		$('.4').addClass('hide');
+		$('.5').addClass('hide');
+	}
+	if (button_name== 'red') {
+		$('.3').removeClass('hide');
+		$('.2').addClass('hide');
+		$('.1').addClass('hide');
+		$('.4').addClass('hide');
+		$('.5').addClass('hide');
+	}
+	if (button_name== 'sol-lewitt') {
+		$('.4').removeClass('hide');
+		$('.2').addClass('hide');
+		$('.3').addClass('hide');
+		$('.1').addClass('hide');
+		$('.5').addClass('hide');
+	}
+	if (button_name== 'about') {
+		$('.5').removeClass('hide');
+		$('.2').addClass('hide');
+		$('.3').addClass('hide');
+		$('.4').addClass('hide');
+		$('.1').addClass('hide');
+	}
+
 
 	if (button_name == 'beyonce') {
 		$('.lightbox').removeClass('hide');
