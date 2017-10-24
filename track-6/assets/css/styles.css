@@ -5,6 +5,7 @@ body {
 	font-family: 'Share Tech Mono', monospace;
 }
 
+
 /*
 .clock {
 	position: fixed;
@@ -151,7 +152,7 @@ body {
 
 #photo2 > #photo-center2 {
   position:absolute;
-  top: 745px;
+  top: 673px;
 }
 #large2{
     width:683px;
@@ -188,7 +189,7 @@ body {
 
 #photo3 > #photo-center3 {
   position:absolute;
-  top: 1735px;
+  top: 1589px;
 }
 #large3{
     width:683px;
@@ -207,6 +208,42 @@ body {
     position:absolute;
     left:49px;
     top:141px;
+    z-index:2;
+}
+
+
+#main4 {
+  width: 100%;
+}
+
+#photo4 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+#photo4 > #photo-center4 {
+  position:absolute;
+  top: 2176px;
+}
+#large4{
+    width:683px;
+  }
+
+#small4{
+    width:61px;
+    position:absolute;
+    left:384px;
+    top:180px;
+    z-index:1;
+    }
+
+#we4 {
+  width:61px;
+    position:absolute;
+    left:265px;
+    top:88px;
     z-index:2;
 }
 
