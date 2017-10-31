@@ -45,13 +45,6 @@ $('.nav-item').click(function() {
 	}
 
 
-	if (button_name == 'beyonce') {
-		$('.lightbox').removeClass('hide');
-		$('audio')[0].play(); // array, 0 is the first element, so first instance of audio. you need the array because before in remove class it made everything an array, so 0 indicates the first element in audio
-
-	} else if (button_name == 'about)') {
-		$('.about-text').removeClass('hide');
-	}
 });
 
 

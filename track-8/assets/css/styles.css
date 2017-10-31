@@ -1,0 +1,60 @@
+.apt {
+	text-align: center;
+	margin: 70px auto;
+	position: absolute;
+}
+
+#redroom {
+	position:absolute ;
+	margin: 40px auto;
+}
+
+
+
+#main1 {
+  width: 100%;
+}
+
+#photo1 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+
+#photo1 > #photo-center1 {
+  position:absolute;
+  top: 96px;
+}
+#large1{
+    width:683px;
+  }
+
+#small1{
+    width:91px;
+    position:absolute;
+    left:237px;
+  	top:144px;
+  	z-index:1;
+    }
+#small2{
+    width:91px;
+    position:absolute;
+    left:237px;
+  	top:281px;
+  	z-index:1;
+    }
+#small3{
+    width:91px;
+    position:absolute;
+    left:350px;
+  	top:377px;
+  	z-index:1;
+    }
+#small4{
+    width:91px;
+    position:absolute;
+    left:463px;
+  	top:377px;
+  	z-index:1;
+    }
