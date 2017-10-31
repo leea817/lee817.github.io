@@ -29,13 +29,29 @@ ul, li {
 	color: #fff;
 }
 
-img {height: 165px;}
-
-.hide {
-	display: none;
+.logo {
+	height: 165px;
+	position: relative;
+	display: inline-block;
+	margin: 0 30px 30px 0;
 }
 
+.logo img {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
+.apple.logo { width: 150px; }
+.nike.logo { width: 320px; }
+.disney.logo { width: 381px; }
+.vogue.logo { width: 330px; }
+
+
+.apple.logo img { height: 150px; }
+.nike.logo img { height: 115px; }
+.disney.logo img { height: 165px; }
+.vogue.logo img { height: 110px; }
 
 
 
