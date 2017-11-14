@@ -1,0 +1,53 @@
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.wrapper {
+	padding: 60px;
+	text-align: center;
+
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.image1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+}
+.image1 > .nokia-center1 {
+	position: absolute;
+	top: 257px;
+}
+#big1 {
+	width: 144px;
+}
+#small1 {
+	width: 56px;
+	position: absolute;
+	left: 44px;
+	top: 176px;
+	z-index: 1;
+}
+
+
+.text1 { 
+	font: bold 90% Consolas, Monaco, monospace;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	border-right: .1em solid black;
+	width: 16.5em; 
+	width: 10ch;
+	margin: 2em 1em;
+	white-space: pre-wrap;
+	overflow: visible;
+	-webkit-animation: typing 2s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
+	color: #000;
+	top: 50px;
+	left: 15px;
+	position: absolute;
+	z-index: 2;
+}
