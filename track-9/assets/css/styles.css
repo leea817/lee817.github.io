@@ -39,13 +39,13 @@ html, body { height: 100%; }
 	display: inline-block;
 }
 
-.one {margin: 35px;}
-.two {margin: 35px;}
-.three {margin: 35px;}
-.four {margin: 35px;}
-.five {margin: 35px;}
+.one {margin: 20px;}
+.two {margin: 20px;}
+.three {margin: 20px;}
+.four {margin: 20px;}
+.five {margin: 20px;}
 
-.instructions {margin: 110px;}
+.instructions {margin: 50px;}
 
 
 
