@@ -31,8 +31,8 @@ html, body { height: 100%; }
 
 .entryboxes {
 	padding: 15px;
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	background: #CE7070;
 	color: #fff;
 	text-align: center;
@@ -59,7 +59,7 @@ html, body { height: 100%; }
 }
 
 .keys {
-	top: 20px;
+	top: auto;
 	left: auto;
 	margin: 20px;
 	position: relative;
