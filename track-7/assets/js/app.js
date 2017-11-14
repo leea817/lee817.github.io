@@ -5,7 +5,6 @@ $('.nav-item').click(function() {
 	$('.content').addClass(button_name);
 
 	$('.nav-item').removeClass('active'); //so that it doesnt stay black once you click it aka active, this is looking at all items on the page. in fact, it is making an array. 
-	$('.about-text').addClass('hide');
 	$(this).addClass('active');
 
 	if (button_name== 'green') {
