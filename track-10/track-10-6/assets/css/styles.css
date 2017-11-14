@@ -46,7 +46,7 @@
 	-webkit-animation: typing 2s steps(21, end),
 	           blink-caret .5s step-end infinite alternate;
 	color: #000;
-	top: 50px;
+	top: 46px;
 	left: 12px;
 	position: absolute;
 	z-index: 2;
