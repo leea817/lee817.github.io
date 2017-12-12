@@ -1,0 +1,67 @@
+html, body {
+	background-image: url(../img/lonelinessbginverse.png)
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1152px;
+	z-index: 1;
+	
+}
+.roombackground {
+	z-index: 2;
+	position: absolute;
+	
+
+}
+
+.bonsaibox {
+	cursor: pointer;
+	z-index: 3;
+	width: 116px;
+	height: 85px;
+	margin-top: 381px;
+	margin-left: 18px;
+	position: absolute;
+}
+
+.pencilbox {
+	z-index: 3;
+	width: 44px;
+	height: 68px;
+	margin-top: 432px;
+	margin-left: 154px;
+	position: absolute;
+}
+
+.fishbox {
+	z-index: 3;
+	width: 72px;
+	height: 68px;
+	margin-top: 500px;
+	margin-left: 196px;
+	position: absolute;
+}
+
+.candlebox {
+	z-index: 3;
+	width: 30px;
+	height: 45px;
+	margin-top: 489px;
+	margin-left: 308px;
+	position: absolute;
+}
+
+.curtainbox {
+	z-index: 3;
+	width: 337px;
+	height: 432px;
+	margin-top: 0px;
+	margin-left: 815px;
+	position: absolute;
+}
+
+.box:hover, .box.active {
+	background: #A5BB87;
+	opacity: 0.5;
+} 

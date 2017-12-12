@@ -1,0 +1,25 @@
+.html, body {
+	background-image: url("../img/lonelinessbg.png");
+	bakcground-repeat: repeat;
+	background-size: auto;
+}
+	
+.background{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	align-content:center;
+	height: 850px;
+	margin: 0 auto;
+	color: white;
+}
+
+.question {
+
+	position: relative;
+	top: -543px;
+	left: 535px;
+
+}
+

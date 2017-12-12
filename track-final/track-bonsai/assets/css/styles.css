@@ -1,0 +1,101 @@
+*{font-size: 0;}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	align-content: center;
+	background-image: url(../img/lonelinessbg.png);
+
+}
+.weathercontainer {
+	z-index: 5;
+	margin: 0 auto;
+	align-content: flex-start;
+	left: 50%;
+	transform: translateX(-50%);
+	position: fixed;
+}
+.container {
+	z-index: 1;
+	align-content: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 1280px;
+	
+}
+.bonsai-background {
+	z-index: 2;
+	width: 1280px;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.weather-bar {
+	z-index: 3;
+	position: relative;
+	margin-top: 125px;
+	left: -338px;
+	/*bakcgtround-image: url("weathericons1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+
+
+.nav-item {
+	cursor: pointer;
+	z-index: 4;
+	position: absolute;
+}
+
+
+.box1 {
+	margin-top: -70px;
+	margin-left: -335px;
+	width: 66px;
+	height: 70px;
+}
+.box2 {
+	margin-top: -70px;
+	margin-left: -263px;
+	width: 66px;
+	height: 70px;
+}
+.box3 {
+	margin-top: -70px;
+	margin-left: -194px;
+	width: 66px;
+	height: 70px;
+}
+.box4 {
+	margin-top: -70px;
+	margin-left: -126px;
+	width: 66px;
+	height: 70px;
+}
+.box5 {
+	margin-top: -70px;
+	margin-left: -54px;
+	width: 66px;
+	height: 70px;
+}
+
+.bonsaicontent {
+	z-index: 2;
+	height: 100%;
+	margin: 0 auto;
+	width: 1280px;
+	align-content: center;
+	margin-top: 0;
+}
+
+.show {opacity: 1}
+.hide {display: none;}
+
+.nav-item:hover, .nav-item.active {
+	background: #A5BB87;
+opacity: 0.3;}

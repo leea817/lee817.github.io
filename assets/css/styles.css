@@ -1,39 +1,44 @@
-body {
-	font-family: arial;
-	font-size: 20px;
-	line-height: 28px;
-	letter-spacing: 5px;
-	margin: 0;
-	padding: 50px;
+html, body {
+	margin: 0 0;
+	background-image:url(../img/2017a.png); 
+	background-repeat: repeat;
+}
+.backgrounddiv, .wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	align-content:center;
+	height: 850px;
+	margin: 0 auto;
+	color: white;
+	padding: 0;
 }
 
-.about {
-	background: #000;
-	color: #fff; }
 
+.albumdiv {
+	position: absolute;
+	width: 354px;
+	height: 200px;
+	margin-top: -380px;
+	margin-left: 147px;
+	z-index: 3;
+}
+.albumbox {
+	cursor: pointer;
+	position: absolute;
+	width: 245px;
+	height: 200px;
+	margin-top: -304px;
+	margin-left: 200px;
+	z-index: 4;
 
-
-
-.about a {
-	color: #fff;
+		
 }
 
-h1, h2{
-	font-size: 20px;
-	margin: 0;
-	font-weight: normal;
-}
-a {color: #000;
-}
-div{margin-bottom: 40px;}
+.albumbox:hover {
+	background-color: red;
+	opacity: 0.3;
 
+}
 
-img{
-	margin-bottom: 40px;
-}
-ul {
-	margin: 0;
-}
-p {
-	width: 650px;
-}

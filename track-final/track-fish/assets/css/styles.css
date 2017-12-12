@@ -1,0 +1,56 @@
+
+body, html { 
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url(../img/lonelinessbg.png);
+}
+
+
+.fishbackground {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	align-content:center;
+	height: 100%;
+	margin: 0 auto;
+	width: 1280px;
+	z-index: 2;
+}
+
+.swimmingkoidiv {
+	z-index: 3;
+	width: 380px;
+	position: absolute;
+	margin-top: -770px;
+	margin-left: 796px;
+
+}
+
+.textdiv {
+	z-index: 3;
+	width: 400px;
+	position: absolute;
+	margin-top: -470px;
+	margin-left: 830px;
+	color: white;
+}
+
+/*
+.fishfooddiv {
+	transform: rotate(33deg);
+	position: absolute;
+	width: 55px;
+	height: 97.5px;
+	margin-top: -685px;
+	margin-left: 751px;
+}
+.fishfooddiv:hover {
+	opacity: 0.6;
+	background: #D8DDD3;
+}
+
+.hide {
+	display: 0;
+}*/

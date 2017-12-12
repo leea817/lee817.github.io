@@ -1,6 +1,6 @@
 .image {
 	position: relative;
-	width: 100%
+	width: 100%;
 	font-size: 0;
 	margin: 0 auto;
 	display: block;
@@ -21,6 +21,7 @@ h4{
 	top: 240px;
 	left: 250px;
 	width: 100%;
+	color: #fff;
 }
 h3{
 	position: absolute;
