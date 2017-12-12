@@ -53,36 +53,41 @@ body, html {
 	}
 }
 
-#fire1 {
+.fire1 {
 	position: absolute;
 	margin-top: 282px;
 	margin-left: 248px;
 }
-#fire2 {
+.fire2 {
 	position: absolute;
 	margin-top: 282px;
 	margin-left: 910px;
 }
-#sparks1 {
+
+.sparks1 {
 	position: absolute;
 	margin-top: 106px;
 	margin-left: 130px;
 }
-#sparks2 {
+.sparks2 {
 	position: absolute;
 	margin-top: 106px;
 	margin-left: 1050px;
 }
-#sparks3 {
+.sparks3 {
 	position: absolute;
 	margin-top: 342px;
 	margin-left: 85px;
 }
-#sparks4 {
+.sparks4 {
 	position: absolute;
 	margin-top: 344px;
 	margin-left: 1169px;
 }
+
+.fire, .sparks { opacity: 0; }
+.fire.show, .sparks.show { opacity: 1; }
+
 
 .candle1:hover {
 	opacity: 0; 

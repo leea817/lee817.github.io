@@ -1,12 +1,12 @@
-$(document).ready(function(){
-   $('.candle1').mouseenter(function(){
-      $(this).addClass('hover');
-	  $(this).addClass('show');
-   });
+$('.candle1').hover(function() {
+  // mouseon
+  $(this).addClass('hover');
+  $(this).addClass('show');
+  $('.fire, .sparks').addClass('show');
 
-   $('.candle1').mouseout(function(){
-      $(this).removeClass('hover');
-	  $(this).removeClass('show');
-   });
-});
-
+}, function() {
+  // mouseout
+  $(this).removeClass('hover');
+  $(this).removeClass('show');
+  $('.fire, .sparks').removeClass('show');
+})
