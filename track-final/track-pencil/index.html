@@ -4,7 +4,7 @@
     <title>연필 pencil</title>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
     <link rel="shortcut icon" href="" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -18,7 +18,9 @@
 			<div id="div3" class="question"><h2>feel uneasy at its fragility</h2></div>
 			<div id="div4" class="question"><h2>continue to write.</h2></div>
 			<h2></h2>
-			<canvas id="can" width="300" height="300" style="position:absolute;top:26%;left:11%;border:1px solid;"></canvas>
+			<div class="canvas-wrapper">
+				<canvas id="can"></canvas>
+			</div>
 			<div style="position:absolute;top:18%;left:12%;">Colors</div>
 			<div style="position:absolute;top:23%;left:13%;width:10px;height:10px;background:green;" id="green" onclick="color(this)"></div>
 			<div style="position:absolute;top:21%;left:14%;width:10px;height:10px;background:blue;" id="blue" onclick="color(this)"></div>
